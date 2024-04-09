@@ -1,4 +1,8 @@
-while resultado == 1 :
-resultado = int(input("Digite 1 ou 0"))
-if resutado == 1:
-    print("Digite um numero: ")
+print ("Contagem regressiva iniciada!")
+contador = 10 
+while contador >= 0:
+    print(contador)
+    contador = contador -1
+
+print("Decolando!")
+    
