@@ -1,5 +1,5 @@
 print("Numeros Pares: ")
-contador = 100
+contador = 102
 while contador <=124:
     print(contador)
     contador = contador + 2
