@@ -9,7 +9,7 @@ while x <= 5 and x > 0 :
         x = int(input("Digite 1 pra somar, 2 para multiplicar, 3 para dividir,4 para subtrair e 5 para encerrar"))
         somatorio = somatorio + numero
     elif x == 2 :
-       numero = int(input("Digite o numero que gostaria de : "))
+        numero = int(input("Digite o numero que gostaria de : "))
         x = int(input("Digite 1 pra somar, 2 para multiplicar, 3 para dividir,4 para subtrair e 5 para encerrar"))
         somatorio = somatorio * numero
     elif x == 3 :
@@ -23,7 +23,7 @@ while x <= 5 and x > 0 :
     elif x == 5 :
          print(f"O resuldado deu {somatorio}")
          break
-    else: 
+    else:
          print("Erro")
 
 print("Erro")
