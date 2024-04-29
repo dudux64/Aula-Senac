@@ -2,5 +2,5 @@
 
 # Exemplo de manipulação de datas
 import datetime
-hoje = datetime.date.today()reverse()
+hoje = datetime.date.today()
 print(hoje)  # Saída: YYYY-MM-DD
