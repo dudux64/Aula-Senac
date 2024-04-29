@@ -1,0 +1,11 @@
+# Criação de uma matriz 2x2
+matriz = [
+    ["","caio", "Maria","João"],
+    ["","Lorena", "Julia"]
+]
+a = matriz[1][1]
+print(a)
+# Impressão da matriz
+print("Matriz:")
+for linha in matriz:
+    print(linha)
