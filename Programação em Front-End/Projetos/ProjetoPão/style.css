@@ -67,6 +67,7 @@ footer {
     padding-left: 15px;
     display: flex;
     justify-content: space-between;
+    margin: 0%;
     
 }
 .customfooter a{
@@ -74,4 +75,7 @@ footer {
 }
 .customfooter a:hover{
     color: black;
+}
+.customfooter li{
+    list-style-type: none;
 }

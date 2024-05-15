@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-body{
+.body{
     background-image:url(img/backgound.png);
     background-size: 1920px 1000px;
     background-attachment: fixed;
@@ -89,12 +89,48 @@ header{
     background-size: cover;
     cursor: pointer;
   }
-  
-  .feature-icon-small {
+.feature-icon-small {
     width: 3rem;
     height: 3rem;
   }
 .py-5 {
     padding-top: 3rem !important;
     padding-bottom: 1rem !important;
+}
+footer {
+    background-image: repeating-linear-gradient(transparent,black,black,black,black,black,black,black,black,black);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 15px;
+}
+.customfooter{
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.customfooter a{
+    color: aliceblue;
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.customfooter a:hover{
+    color: rgb(248, 106, 106);
+}
+.customfooter li{
+    list-style-type: none;
+}
+.footer-style{
+    display:flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+.footer-style p:hover{
+    color:rgb(248, 106, 106);
 }
