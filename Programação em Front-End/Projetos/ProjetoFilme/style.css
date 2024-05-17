@@ -50,6 +50,8 @@ header{
 .login-button{
     display: flex;
     align-items: center;
+    padding-left: 15px;
+
 }
 .login-button button{
     border: none;
@@ -63,7 +65,10 @@ header{
   color: rgb(0, 0, 0);
   font-weight: 400;
 }  
-
+.login{
+    display: flex;
+    align-items: center;
+}
 
 
 
