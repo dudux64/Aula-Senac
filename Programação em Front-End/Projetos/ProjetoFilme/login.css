@@ -5,7 +5,7 @@ body{
     background-image:url(img/backgound.png);
     background-size: 1920px 1000px;
     background-attachment: fixed;
-    color: rgb(253, 186, 186);
+    color: rgb(0, 0, 0);
 }
 *{
     padding: 0;
@@ -49,6 +49,7 @@ header{
 .login-button{
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }
 .login-button button{
     border: none;
@@ -60,9 +61,12 @@ header{
 .login-button button a{
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-weight: 400;
-}  
-
+  font-weight: 500;
+} 
+.login{
+    display: flex;
+    align-items: center;
+}
 
 .form {
     display: flex;
@@ -181,5 +185,42 @@ header{
     border: 1px solid #2d79f3;
     ;
   }
+  footer {
+    background-image: repeating-linear-gradient(transparent,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black,black);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: -10px;
+}
+.customfooter{
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.customfooter a{
+    color: aliceblue;
+    display: flex;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.customfooter a:hover{
+    color: rgb(255, 3, 3);
+}
+.customfooter li{
+    list-style-type: none;
+}
+.footer-style{
+    display:flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+.footer-style p:hover{
+    color:rgb(255, 0, 0);
+}
   
       
