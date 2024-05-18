@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (userData.password === password) {
         alert('Login bem-sucedido!');
-        window.location.href = '';// Aqui, redirecione para a página principal do sistema ou mostre informações do usuário
+        window.location.href = 'index.html';// Aqui, redirecione para a página principal do sistema ou mostre informações do usuário
     } else {
         alert('Usuário ou senha incorretos!');
     }
